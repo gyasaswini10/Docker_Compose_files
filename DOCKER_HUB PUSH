@@ -23,9 +23,6 @@ kubectl delete svc backend -n default
 kubectl delete svc frontend -n default
 kubectl delete svc mysql -n default
 
-docker push srithar1234/ecommerce-backend1:v1
-docker push srithar1234/ecommerce-frontend1:v1
-
 
 
 docker build -f Dockerfile.backend -t 2300030244/property_backend1:v1 .
