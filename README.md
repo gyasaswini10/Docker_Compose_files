@@ -1,0 +1,4 @@
+docker system prune                 
+
+
+docker compose up -d --build
